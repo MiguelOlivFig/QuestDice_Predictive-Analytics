@@ -13,17 +13,12 @@ Taking into consideration advertising costs of €3 per customer and a profit ma
 **Data Description**:
 
 The project utilizes two datasets:
-
 - **train.csv:** Contains 15,589 observations used for model training. This dataset includes customer demographics, firmographic details, and responses to 14 survey questions about the first product. The target variable, 'Buy_Product,' indicates whether a customer purchased the second product (1) or not (0).
-
 - **test.csv:** Consists of 5,195 observations without the target variable. The objective is to predict and populate the 'Buy_Product' variable for this dataset.
 
 Key features:
-
 - **Customer Information:** Unique customer ID, name, year of birth, membership type, and preferred game genre.
-  
 - **Engagement Metrics:** Newsletter subscription status and accumulated fidelity points.
-  
 - **Survey Responses:** Fourteen questions evaluating various aspects of the first game, rated on a scale from 0 (Completely Disagree) to 5 (Completely Agree).
 
 **Objective**:
@@ -34,10 +29,10 @@ The primary goal of this project is to develop and implement predictive models c
 **Data Collection & Preparation:**
 - Analyze customer survey responses and purchasing behaviors.
 - Perform feature engineering to extract meaningful variables from the dataset.
-
+  
 **Model Development**:
 - Implement supervised learning algorithms, including K-Nearest Neighbors (KNN) and decision trees.
 - Train models on historical data to predict customer purchasing likelihood.
-
+  
 **Model Evaluation**:
 - Evaluate model performance using metrics such as accuracy, precision, recall, and F1-score, with a primary focus on maximizing the F1-score to balance precision and recall.
