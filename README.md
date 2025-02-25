@@ -49,7 +49,7 @@ Libraries/Frameworks:
 
 ## The repository is organized as follows:
 - Data: folder containing all the data files used for the project
-- Old Files
+- OLD: folder containing older versions of the notebook
 - Project Statement
 - Notebook (.ipynb):
   - data collection (importing libraries, loading datasets)
