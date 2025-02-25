@@ -64,6 +64,6 @@ Libraries/Frameworks:
     - optimized the models by using techniques like Random Search and Grid Search
     - selected the best model by resorting to ROC curve and AUC, and F1 Score
   - deploy model and obtain predictions on the test data
-  - Final solution: excel containing the prediction for each customer
-  - Report
+- Final solution: excel containing the prediction for each customer
+- Report
 
